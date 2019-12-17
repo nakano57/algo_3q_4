@@ -18,7 +18,7 @@ struct setupBoard
     {
         for (auto &&a : arr)
         {
-            //fillのconstexprはまだコンパオラが非対応だった
+            //fillのconstexprはまだコンパイラが非対応だった
             //a.fill(1);
 
             for (auto &&b : a)
