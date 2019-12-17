@@ -52,7 +52,7 @@ int solve(setupBoard b, int amounts)
 
 int main(int argc, char *argv[])
 {
-    //setupBoard(); /* setupBoard() の呼び出し */
+     /* setupBoard() の呼び出し */
     constexpr auto board = setupBoard();
 
     struct
