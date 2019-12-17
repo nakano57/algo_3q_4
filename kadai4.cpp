@@ -47,7 +47,7 @@ struct setupBoard
 int solve(setupBoard b, int amounts)
 {
     //オーダーはO(1)
-    return b.arr[floor(sqrt(amounts))][amounts];
+    return b.arr.at(floor(sqrt(amounts))).at(amounts);
 }
 
 int main(int argc, char *argv[])
